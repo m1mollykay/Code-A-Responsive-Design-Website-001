@@ -35,6 +35,11 @@
 
         <div id="main-banner">
             <img src="images/banner.jpg" alt="Welcome to Resto">
+            <picture>
+                <source src="small.jpg" media="(max-width: 480px)">
+                <source src="medium.jpg" media="(max-width: 768px)">
+                <img srcset="big.jpg">
+            </picture>
         </div>
 
         <div class="wrapper">
@@ -144,9 +149,11 @@
             </div>
         </footer>
         
-    </body>
+    
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="menu.js"></script>
+        
+    </body>
     
 </html>
  
